@@ -24,5 +24,22 @@ a {
 .btn:hover {
     cursor: pointer;
     background: #000;
-
+}
+.headline {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+/* Navbar */
+#navbar {
+    width: 100%;
+    background: #111;
+    color: #eee;
+}
+#navbar-container {
+    width: 80%;
+    margin: auto;
 }
