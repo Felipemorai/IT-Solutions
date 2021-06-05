@@ -38,8 +38,24 @@ a {
     width: 100%;
     background: #111;
     color: #eee;
+    height: 80px;
 }
 #navbar-container {
     width: 80%;
+    height: 100%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 2rem;
+}
+#navbar-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+#navbar-items li {
+    padding: 10px;
 }
