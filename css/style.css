@@ -61,7 +61,7 @@ a {
 }
 /* Showcase */
 #showcase {
-    height: 100vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,4 +80,22 @@ a {
 }
 #showcase-container p {
     font-size: 1.2rem;
+    padding: 7px 0;
+}
+/* Clients */
+#clients {
+    width: 100%;
+    background: #eee;
+    color: #111;
+    padding: 50px;
+}
+#clients-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 15px;
+}
+.client {
+    display: inline-block;
+    width: 25%;
 }
