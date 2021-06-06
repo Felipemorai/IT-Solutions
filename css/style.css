@@ -142,3 +142,32 @@ a {
 #items {
     width: 650px;
 }
+#items .item {
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+/* Testimonials */
+.testimonial {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+#testimonials {
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+#testimonials-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
