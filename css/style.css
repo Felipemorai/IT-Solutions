@@ -99,3 +99,17 @@ a {
     display: inline-block;
     width: 25%;
 }
+/* About */
+#features {
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+#features-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-column-gap: 50px;
+}
