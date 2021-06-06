@@ -170,4 +170,30 @@ a {
     margin: auto;
     display: flex;
     align-items: center;
+    flex-direction: column;
+}
+.testimonial .testimonial-image {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px ;
+}
+
+/* Gallery */
+#gallery {
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+#gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}
+.gallery-image {
+    display: inline-block;
+    width: 540px;
+    height: 360px;
+    border-radius: 5px;
 }
