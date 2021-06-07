@@ -9,6 +9,7 @@ body {
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 .btn {
     display: inline-block;
@@ -196,4 +197,12 @@ a {
     width: 540px;
     height: 360px;
     border-radius: 5px;
+}
+
+/* Footer */
+#footer {
+    background: #222;
+    color: #eee;
+    padding: 30px;
+    text-align: center;
 }
