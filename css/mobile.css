@@ -14,3 +14,19 @@
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
 }
+
+/* Clients */
+#clients-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+.client {
+    width: 50%;
+}
+
+/* Features */
+#features-container {
+    grid-template-columns: 1fr;
+}
+#features-container .feature:nth-child(2) {
+    margin: 15px 0; 
+}
